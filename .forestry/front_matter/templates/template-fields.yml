@@ -1,4 +1,18 @@
 ---
 label: TEMPLATE FIELDS
 hide_body: true
-fields: []
+fields:
+- name: formu
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - opcion
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: formu
+  description: aquest es un  formu
